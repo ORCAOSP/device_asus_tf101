@@ -49,7 +49,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := bigfoot_tf101
+PRODUCT_NAME := full_tf101
 PRODUCT_DEVICE := tf101
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Transformer TF101
